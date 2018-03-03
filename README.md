@@ -1,3 +1,3 @@
 # ubuntu-mate-welcome-launcher
 
-A Launcher for the Ubuntu MATE Welcome snap.
+A Launcher for Ubuntu MATE Welcome.
