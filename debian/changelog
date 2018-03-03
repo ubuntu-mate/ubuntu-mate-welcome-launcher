@@ -1,4 +1,4 @@
-ubuntu-mate-welcome (18.10.0~bionic1.0) bionic; urgency=medium
+ubuntu-mate-welcome (18.10.0) bionic; urgency=medium
 
   * Transition to Ubuntu MATE Welcome launcher.
 
