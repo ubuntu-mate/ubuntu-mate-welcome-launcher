@@ -1,0 +1,18 @@
+Source: ubuntu-mate-welcome
+Section: x11
+Priority: optional
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Build-Depends: debhelper (>= 11),
+Standards-Version: 4.1.3
+Homepage: https://github.com/ubuntu-mate/ubuntu-mate-welcome-launcher
+Vcs-Browser: https://github.com/ubuntu-mate/ubuntu-mate-welcome-launcher
+
+Package: ubuntu-mate-welcome
+Architecture: all
+Depends: zenity,
+         ${misc:Depends},
+Description: Welcome screen for Ubuntu MATE
+ A welcome screen for Ubuntu MATE that provides links to helpful
+ resources, utilities and a selection of software packages.
+ .
+ This is a launcher for the Ubuntu MATE Welcome snap.

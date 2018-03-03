@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+WELCOME=$(which ubuntu-mate-welcome)
+if [ $? -ne 0 ]; then
+    zenity --error \
+           --text="Ubuntu MATE Welcome is not installed. Open a terminal and execute 'snap install ubuntu-mate-welcome --classic' to install it." \
+           --no-wrap
+else
+    if [[ ${WELCOME} == /snap* ]]; then
+        echo "${WELCOME} is a snap"
+        snap run ubuntu-mate-welcome "$@" &
+    else
+        echo "${WELCOME} is not a snap"
+        exec ubuntu-mate-welcome "$@" &
+    fi
+fi

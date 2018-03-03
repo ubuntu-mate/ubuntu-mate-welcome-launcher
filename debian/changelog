@@ -1,0 +1,862 @@
+ubuntu-mate-welcome (18.10.0~bionic1.0) bionic; urgency=medium
+
+  * Transition to Ubuntu MATE Welcome launcher.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 02 Mar 2018 23:48:36 +0000
+
+ubuntu-mate-welcome (17.10.15) artful; urgency=medium
+
+  * Update KDE Connect for Artful.
+  * Correct URL for Git-Cola.
+  * Prevent duplicate deja-dup entries.
+
+ -- Martin Wimpress <martin.wimpress@canonical.com>  Wed, 18 Oct 2017 09:08:08 +0100
+
+ubuntu-mate-welcome (17.10.14) artful; urgency=medium
+
+  * Add Audio Record for Artful.
+  * Update Brasero, OpenRazer for Artful.
+  * Update Déjà Dup launch command for Artful.
+  * Fix Geany plugins install.
+  * Update translations.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 04 Sep 2017 22:32:03 +0100
+
+ubuntu-mate-welcome (17.10.13) artful; urgency=medium
+
+  * Update Recenct Notifications so it is only available for Xenial.
+  * Update MakeMKV and OBS for Artful.
+  * Add Wavebox.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 04 Sep 2017 21:23:25 +0100
+
+ubuntu-mate-welcome (17.10.12) artful; urgency=medium
+
+  * Ensure WebKit JS operations are thread-safe.
+  * Update Google Earth.
+  * Update X2Go for Artful.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 29 Aug 2017 13:57:52 +0100
+
+ubuntu-mate-welcome (17.10.11) artful; urgency=medium
+
+  * Update Aptik, Recent Notifications, Subsurface and uGet for Artful.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 28 Aug 2017 01:03:06 +0100
+
+ubuntu-mate-welcome (17.10.10) artful; urgency=medium
+
+  * Update artwork and branding for Artful.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 23 Aug 2017 22:17:21 +0100
+
+ubuntu-mate-welcome (17.10.9) artful; urgency=medium
+
+  * Remove threading to prevent segfaults at startup. (LP: #1710150)
+  * Add Super and Alt documentation to Getting Started.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 22 Aug 2017 11:52:00 +0100
+
+ubuntu-mate-welcome (17.10.8) artful; urgency=medium
+
+  * Update Diodon, GNS3, OBS, RetroArch, Shotwell, TeXworks for Artful.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 17 Aug 2017 02:34:53 +0100
+
+ubuntu-mate-welcome (17.10.7) artful; urgency=medium
+
+  * Update 0 A.D and Caffeine for Zesty.
+  * Update Ambient Noise for Zesty and Artful.
+  * Update Atom, Brackets, Brave, LibreOffice, Luminance-HDR, Nextcloud
+    Client, Peek, Play on Linux, Polychromatic, Razer Drivers, Solaar
+    and Veracrypt for Artful.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 20 Jun 2017 10:32:47 +0100
+
+ubuntu-mate-welcome (17.10.6) artful; urgency=medium
+
+  * Fix Steam install for Ubuntu MATE 16.04.
+  * Fix Boutique logic when choosing "shared" codename configurations
+  * Update translations. (LP: #1689512)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 18 May 2017 20:31:50 +0100
+
+ubuntu-mate-welcome (17.10.5) artful; urgency=medium
+
+  * Add Slack and Recent Notifications.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 18 May 2017 20:31:50 +0100
+
+ubuntu-mate-welcome (17.10.4) artful; urgency=medium
+
+  * Correct documentation for Compiz Scale effect, which is now Super+s.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 15 May 2017 01:08:01 +0100
+
+ubuntu-mate-welcome (17.10.3) artful; urgency=medium
+
+  * Add Etcher.
+  * Improve detection of Ubuntu MATE.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 14 May 2017 20:23:19 +0100
+
+ubuntu-mate-welcome (17.10.2) artful; urgency=medium
+
+  * Add additional theme installer to Getting Started.
+  * Add Brackets, Entangle, Luminance HDR, Sound Converter and Wire.
+  * Re-enable Opera.
+  * Update translations.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 13 May 2017 00:27:55 +0100
+
+ubuntu-mate-welcome (17.10.1) artful; urgency=medium
+
+  * Updated Software Boutique to support 17.10.
+  * Remove obsolete applications from the Software Boutique.
+  * Add Brave, HexChat, Transmission, Microsoft Visual Studio Code,
+    Nextcloud client, Peek and VLC.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 25 Apr 2017 01:43:54 +0100
+
+ubuntu-mate-welcome (17.10.0) artful; urgency=medium
+
+  * Upload for Artful.
+
+ -- Martin Wimpress <email address hidden>  Fri, 21 Apr 2017 19:35:47 +0100
+
+ubuntu-mate-welcome (17.04.12) zesty; urgency=medium
+
+  * Add missing entries for Aptik, KDE Connect, Lutris, Nuvola Player,
+    OBS Studio, RetroArch, Virtualbox and Wine which now all have Zesty
+    builds. (LP: #1684309)
+  * Fix broken applications.json which needs "all" explictly stated for
+    all entries, which Simple Screen Recorder was missing. (LP: #1684311)
+  * Drop Red Notebook, no longer in the archive. (LP: #1682757)
+  * Fix test suite.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 19 Apr 2017 23:24:50 +0100
+
+ubuntu-mate-welcome (17.04.11) zesty; urgency=medium
+
+  * Fix incorrect quoting of URIs which prevent some locales from
+    installing software. (LP: #1679280)
+  * Disable the Install button if Ubiquity is not avaliable. (LP: #1678582)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 03 Apr 2017 22:35:50 +0100
+
+ubuntu-mate-welcome (17.04.10) zesty; urgency=medium
+
+  * Fix the removal of Adobe Flash if installed via Ubiquity. (LP: #1676052)
+  * Add Simple Screen Recorder, it is now in the Zesty archive.
+  * Update translations.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 30 Mar 2017 22:46:09 +0100
+
+ubuntu-mate-welcome (17.04.9) zesty; urgency=medium
+
+  * Fix scrollbar to prevent it being displayed when not required.
+  * Fix ubuntu-make PPA.
+  * Include references to Netflix for Firefox and Google Chrome.
+  * Add missing entry for Caffeine.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 23 Mar 2017 21:23:43 +0000
+
+ubuntu-mate-welcome (17.04.8) zesty; urgency=medium
+
+  * Update scrollbars to match the default theme.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 21 Mar 2017 00:24:42 +0000
+
+ubuntu-mate-welcome (17.04.7) zesty; urgency=medium
+
+  * Replace Pitivi with kdenlive.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 19 Mar 2017 10:16:32 +0000
+
+ubuntu-mate-welcome (17.04.6) zesty; urgency=medium
+
+  * Drop references to Ubuntu Software Center. (LP: #1670066)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 18 Mar 2017 21:06:57 +0000
+
+ubuntu-mate-welcome (17.04.5) zesty; urgency=medium
+
+  * Make sure UI is updated before starting bulk queue processing.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 17 Mar 2017 00:57:45 +0000
+
+ubuntu-mate-welcome (17.04.4) zesty; urgency=medium
+
+  * Wait for Apt cache to finish updating before installing apps in bulk.
+  * Catch exception when notifications fail to send.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 15 Mar 2017 23:15:48 +0000
+
+ubuntu-mate-welcome (17.04.3) zesty; urgency=medium
+
+  * Fix Blu-ray and DVD Playback Support installer.
+  * Fix Steam install by including steam-devices.
+  * Remove Play On Linux, the repository is not signed.
+  * Remove Ambient Noise and OBS Studio, they are uninstallable on Zesty.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 15 Mar 2017 10:14:48 +0000
+
+ubuntu-mate-welcome (17.04.2) zesty; urgency=medium
+
+  * Add missing applications to the Zesty Software Boutique.
+  * Remove Opera. (LP: #1663523)
+  * Update translations.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 14 Mar 2017 18:58:58 +0000
+
+ubuntu-mate-welcome (17.04.1) zesty; urgency=medium
+
+  * Update Blu-ray and DVD support.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 21 Dec 2016 17:59:37 +0000
+
+ubuntu-mate-welcome (17.04.0) zesty; urgency=medium
+
+  * Add support for Zesty.
+  * Add dconf-editor.
+  * Update Blu-ray and DVD support.
+  * Update translations.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 20 Dec 2016 12:52:57 +0000
+
+ubuntu-mate-welcome (16.10.11) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+  * Fix checkboxes not working. (LP: #1632680)
+
+  [ Martin Wimpress ]
+  * Remove HipChat for i386. (LP: #1632878)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 12 Oct 2016 23:10:31 +0100
+
+ubuntu-mate-welcome (16.10.10) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+  * Correct description for Adobe Flash. (LP: 1630266)
+  * Add keyboard navigation support. (LP: 1616203)
+  * Minor fixes for Getting Started buttons.
+  * Sync translations.
+
+  [ Martin Wimpress ]
+  * Fix Orca upgrade. The a11y PPA is not Yakkety enabled.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Fri, 05 Oct 2016 22:18:13 +0100
+
+ubuntu-mate-welcome (16.10.9) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+  * New upstream release.
+  * Remove ocenaudio. (LP: #1613410)
+
+  [ Luke Horwell ]
+  * Minor string changes.
+  * Fix Getting Started sections not re-closing. (LP: #1626909)
+  * Fix broken images in bulk queue. (LP: #1626896)
+  * Fix notifications for bulk queue operations. (LP: #1626899)
+  * Fix "Upgrade Installed Packages" button. (LP: #1626907)
+  * Fix inoperable introduction links.
+  * Fix Getting Started hints not appearing.
+  * Hide "open at login" checkbox for live and guest sessions.
+  * Remove duplicate navigation buttons.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 23 Sep 2016 09:54:10 +0100
+
+ubuntu-mate-welcome (16.10.8) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+  * New upstream release.
+  * Fix Audio Recorder, Gajim, InSync, KDE Connect Indicator, Kodi,
+    Hedgewars, HipChat, MakeMKV, OBS Studio, Play on Linux, Ubuntu SDK,
+    Ubuntu Software, Veracrypt and Wine Devel for Yakkety.
+  * Update Emby, Pithos and TorBrowser for Xenial.
+  * Add gElemental and Skype for Linux Alpha.
+  * Sync translations.
+
+  [ Luke Horwell ]
+  * Auto-focus search box. (LP: #1606361).
+  * Fix app-index-debugger.py
+  * Refine Getting Started.
+  * Refine header/footer shadows and footer icons.
+  * Reduce flickering under non Ambiant-MATE themes.
+  * Update installation packages for LibreOffice, VirtualBox and Wireshark.
+
+  [ Rob Loach ]
+  * Add Thunderbird, Deja-Dup and Brasero.
+
+  [ Polihron Alexandru ]
+  * Add GNS3.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 23 Sep 2016 00:33:14 +0100
+
+ubuntu-mate-welcome (16.10.7) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+  * Set variable whether running on an Ubuntu MATE system.
+  * Do not adapt the colours on non-Ubuntu MATE systems.
+  * Do not check font DPI on non-Ubuntu MATE systems.
+  * Autofocus the search box.
+  * Sync Translations.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 26 Jul 2016 22:34:57 +0100
+
+ubuntu-mate-welcome (16.10.6) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+  * Update minimum hardware requirements.
+  * Migrate to python3-setproctitle module.
+
+  [ Luke Horwell ]
+  * Remove Antiviral.
+  * Correct Darktable architecture listing.
+  * Update Blender's Alternate to field.
+  * Add Welcome PPA to known repository list.
+  * Update application listings, drops Trusty where packages unavailable.
+  * Correct Lithuanian string for Welcome launcher.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 12 Jul 2016 10:23:20 +0100
+
+ubuntu-mate-welcome (16.10.5.1) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+  * Update Software Boutique news.
+  * Fix broken applications.json.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 29 Jun 2016 06:16:43 +0100
+
+ubuntu-mate-welcome (16.10.5) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+  * Fixed Solaar install.
+  * Fixed Codecs install.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 28 Jun 2016 21:29:15 +0100
+
+ubuntu-mate-welcome (16.10.4) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+  * Welcome
+    - Discontinue confetti and project notifications.
+    - (Re)animate the scroll to top.
+    - Allow terminal commands to be selected.
+    - Adapts to other default Ubuntu MATE themes.
+    - Switch and smoothed to a glide page transition.
+    - Splash - Add "Skip" button (only on installed systems)
+    - Index - Change string for updating welcome.
+    - Index - Smooth button appearances.
+    - Introduction - Change "wow" animations when scrolling down page.
+    - Introduction - Replace "What is.." button with animation hint.
+    - Getting Started - New utilities section.
+    - Getting Started - Add Logitech Solaar to utilities.
+  * Internal Code
+    - Re-jiggled around in some places.
+    - Rename class "live-session" => "live-session-hide"
+    - animate.css = Removed non-webkit elements. Saved 43.7 kB (~40%)
+    - Update argument processing.
+  * Bug Fixes
+    - Correct news sorting - 10 after 9.
+    - Prevent navigation text flashes when entering some pages.
+    - Allow the same link to be clicked again.
+  * Boutique
+    - Use new apt 'full-upgrade' command.
+    - Show warning when Boutique is ran on other distributions.
+    - Slightly faster splash animation.
+    - Add a "pretty" repository listing feature.
+    - Change page transition to a simple fade.
+    - Fix bug where multiple pages get clumped together due to double clicks.
+    - Rename "More" button to "Details".
+    - Show a loading message prior to entering the Boutique.
+    - Quicker fades for navigation "subtitle".
+    - Re-implementation of proprietary popover.
+  * Software Changes
+    - Add Cheese.
+    - Add Antiviral.
+    - Add WineHQ Development builds.
+    - PlayOnLinux only installs itself, not Wine too.
+    - Use a system application icon for updates.
+    - Use a keyboard icon for layouts.
+    - Hide unstable "Hide Apt Progress" toggle and a hidden, unimplemented option.
+    - Whitespace clean-up in applications.json.
+    - Add Boutique listings for "arm64".
+    - Add Boutique listings for "ppc64el".
+    - Updated news.
+  * Translations
+    - Add splash-boutique page for translation.
+    - Re-synced translations.
+    - Pages that do not want translating (message.html) are ignored.
+    - Translations now work as new pages now generate.
+  * Tests
+    - Move non-CI tests to separate folder.
+    - PPA Testing = Ping the actual PPA repository URL (for Launchpad)
+    - Re-shuffle required checks for known repositories.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 28 Jun 2016 08:41:30 +0100
+
+ubuntu-mate-welcome (16.10.3) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+  * Fix translations for Getting Started.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 11 Jun 2016 20:55:21 +0100
+
+ubuntu-mate-welcome (16.10.2) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+  * General
+    - Re-shuffled icons from humanity folder.
+    - Update Welcome languages for desktop launcher.
+    - stdout is more colourful in a terminal.
+    - Verbosity improved between none, -v and -d.
+  * Internal Changes
+    - Clean-up "appending variables".
+    - Common strings moved to own class.
+    - Only needs to call i18n once. Marginally faster?
+    - Remove unused/duplicate imports.
+  * Bug Fixes
+    - Fix autostart directory variable. Closes #24.
+    - Prevent "invalid packages" for screensavers.
+  * System Specs
+    - Loads faster.
+    - Remove horizontal lines (looked bad while scrolling)
+    - Allow text to be dragged.
+    - Add Copy to Clipboard.
+  * Boutique
+    - Do not queue applications outside of Boutique.
+    - Support enabling of multiverse repository.
+    - Update VirtualBox entry.
+    - "Virtualisation" Typo
+    - It's open source. (Not to confuse with the extension pack, which is the closed source part)
+    - Update Steam to install from Ubuntu repositories.
+  * Tools & Tests
+    - Update the application index debugger to look for missing screenshots and add --all parameter.
+    - Moved index validation to own test file.
+
+  [ Martin Wimpress ]
+  * Fixed Wireshark uninstall.
+  * Updated transaltions.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 11 Jun 2016 20:17:19 +0100
+
+ubuntu-mate-welcome (16.10.1) yakkety; urgency=medium
+
+  [ Luke Horwell ]
+    + General
+      - New icon for Software Boutique. Installs system-wide.
+      - Move humanity SVG icons to applications folder as PNGs.
+    + Welcome - Getting Started
+      - Rename "Software Updates" category to "Update & Extras".
+      - Moved DVD Playback.
+      - Add xscreensavers.
+      - Moved wallpapers.
+    + Boutique - General
+      - Update Boutique Splash.
+      - Update Boutique desktop launcher.
+      - Always show "Back To Top" in Boutique
+      - Internal code changes to allow code re-use.
+    + Boutique - Features
+      - Implement preferences. (~/.config/ubuntu-mate/welcome/preferences.json)
+      - Retain non-free toggle across sessions.
+      - Boutique Search requires 3 characters.
+      - "Smarter" Boutique Search.
+      - Now checks descriptions and "alternate to" in addition to name.
+      - Abolishes regular expressions for Python's built-in functions.
+      - Respects non-free toggle.
+      - Add Preferences tab for Boutique.
+      - Change "Fixes" icon and colour.
+      - Refined installation/fixes notifications
+      - Updated string.
+      - Add Bulk Queue.
+    + Bug Fixes
+      - Fix connection retry button on Boutique offline page.
+      - Fix missing software icons in news.
+      - Fix HP Printer installed checkmark in Getting Started -> Drivers.
+      - Use green border for input controls.
+
+  [ Martin Wimpress ]
+    + Update translations.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 06 Jun 2016 17:18:50 +0100
+
+ubuntu-mate-welcome (16.10.0) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+    + Update all Yakkety compatible applications.
+    + Fix SpiderOAK One for Xenial and Yakkety.
+    + Add Atom.
+    + Add Clementine.
+    + Enable Nuvola Player for Xenial.
+    + Enable VirtualBox for Xenial.
+    + Enable OBS Studio for Xenial.
+    + Enable Subsurface for Xenial.
+    + Disable ownCloud Client.
+    + Update translations.
+
+  [ Luke Horwell ]
+    + Ported to WebKit 2.
+    + Internal restructure changes, reorganisation and cleaning up.
+    + Fix i18n translations.
+    + Slightly faster launch speeds with one Apt.Cache() object.
+    + Update a partitioning screenshot.
+    + Use a abstract "flat" background.
+    + Much, much improved scroll bar integration.
+    + Update introduction page's animations.
+    + Green borders around buttons on click and hover.
+    + New 16.10 Splash screen (including the one used for the Boutique).
+    + Rename DVD library.
+    + Uses new Entroware Orion model laptop image.
+    + Remove obsolete or unused files.
+    + Add a script to quickly test translations.
+    + Update parameters (-b, --boutique and --dev)
+    + Getting Started
+      - Keyboard Shortcuts - New "Tux" Super Key illustration and description.
+      - Keyboard Shortcuts -New mouse icons to illustrate clicks and movement.
+      - Optional Tasks - Add about setting up file shares.
+    + Bug Fix - Correct i18n path.
+    + Boutique
+      - Add Boutique news.
+      - Add application search.
+      - Show apt instead of apt-get for terminal commands.
+      - Use new 2016 VirtualBox signing key.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 20 May 2016 23:36:21 +0100
+
+ubuntu-mate-welcome (16.04.9.1) xenial; urgency=medium
+
+  [ Luke Horwell ]
+    + Correct some strings so translations are exposed.
+
+  [ Martin Wimpress ]
+    + Remove linux-firmware-nonfree from the install options.
+    + Fix Raspberry Pi partition resizer.
+    + Closes (LP: #1572931)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 20 Apr 2016 22:00:55 +0100
+
+ubuntu-mate-welcome (16.04.9) xenial; urgency=medium
+
+  [ Luke Horwell ]
+    + Fix Raspberry Pi resize button, so it prompts to restart.
+    + Fix parsing errors in quoted strings.
+    + Correct typo in Vivaldi.
+
+  [ Martin Wimpress ]
+    + Don't hide the Software Boutique.
+    + Update translations.
+    + Closes (LP: #1571635)
+
+ -- Logan Rosen <logan@ubuntu.com>  Mon, 18 Apr 2016 16:30:28 +0000
+
+ubuntu-mate-welcome (16.04.8) xenial; urgency=medium
+
+  [ Martin Wimpress ]
+    + Add Turkish (tr_TR) translation.
+    + Update translations.
+    + Update Vivaldi to stable.
+    + Update Telegram.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 06 Apr 2016 22:22:54 +0100
+
+ubuntu-mate-welcome (16.04.7) xenial; urgency=medium
+
+  [ Martin Wimpress ]
+    * Fix missing launch entries for Variety, Veracrypt and Zim.
+    * Fix Extreme Tux Racer.
+    * Fix GNOME Software.
+    * Fix Raspberry Pi partition resizing.
+    * Add Psensor and Tux Paint to Software Boutique.
+    * Add Catalan (ca_ES) translation.
+    * Add Greek (el) translation.
+    * Add Hungarian (hu_HU) translation.
+    * Add Indonesian (id) translation.
+    * Add Lithuanian (lt_LT) translation.
+    * Add Korean (ko_KR) translation.
+    * Add Polish (pl) translation.
+    * Add Portuguese Brazilian (pt_BR) translation.
+    * Add Sebbain (serbain@latin) translation.
+    * Update translations.
+    * Remove DVD-Styler.
+
+  [ Luke Horwell ]
+    * Fix "Install Now" button in Getting Started during live session.
+    * Fix text scaling based on font DPI setting.
+    * Fix System Specifications.
+    * Correct I-beam cursor, behaves more like a native application.
+    * Correct Flash Player link on Raspberry Pi documentation.
+    * Improve readability of Keyboard Shortcuts and System Specifications.
+    * Improve appearance of tooltips.
+    * Improve accuracy of disk usage in System Specifications.
+    * Add MATE Disk Analyser and Psensor to System Specifications.
+    * Add Source field for each Boutique application.
+    * Add error message for applications that fail to launch.
+    * Update footer to display version and subscription opt-in status.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 05 Apr 2016 21:21:44 +0000
+
+ubuntu-mate-welcome (16.04.6) xenial; urgency=medium
+
+  * Fix crash, that takes Ubiquity with it, when a suitable locale can't
+  be determined. Closes (LP: #1560493)
+  * Fix Ubuntu MATE being closed while busy installing software.
+  Closes (LP: #1553336)
+  * Document keyboard shortcuts for enabling/disabling the screen reader
+  and pull-down terminal. Closes (LP: #1560208)
+  * Correct workspace switching description.
+  * Correct grammar in various places.
+  * Add Belarusian (be_BY) translation.
+  * Add French (fr_FR) translation.
+  * Add German (de) translation.
+  * Add Spanish (es_ES) translation.
+  * Add ConvertAll and FreeCiv to Software Boutique.
+  * Enable Kodi for Xenial.
+  * Replace Parcellite with Diodon.
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 18 Mar 2016 20:28:14 +0000
+
+ubuntu-mate-welcome (16.04.5) xenial; urgency=medium
+
+  * Fix missing images in version 16.04.4. Closes (LP: #1558983)
+  * Fix Codecs installation. Closes (LP: #1558986)
+  * Add Chinese (zh_TW) translation.
+  * Update English (en_GB) translation.
+  * Correct English grammar.
+  * Enable Simple Screen Recorder for Xenial.
+  * Update copyright attributions.
+  * Process with wrap-and-sort.
+  * Closes (LP: #1558989)
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 18 Mar 2016 00:58:10 +0000
+
+ubuntu-mate-welcome (16.04.4) xenial; urgency=medium
+
+  * Fix splash screen flicker. Closes (LP: #1549072)
+  * Fix system information.
+  * Fix subscription updates.
+  * Fix Abobe Flash.
+  * Fix Dropbox.
+  * Fix Google Chrome, i386 repository is no longer available.
+  * Fix LibreOffice upgrades.
+  * Fix Murmur, which was referenced but missing.
+  * Fix RedNoteBook.
+  * Fix Upgrade System, so it is compatible with Ubuntu MATE Base.
+  * Add framework for accepting translations.
+  * Add Ardour, Corebird, Gajim, GNOME Software, Gpick, Time Tracker,
+  MuseScore, Nuvola Player, OBS Studio, Pinta, Subsurface, SparkleShare,
+  Vivaldi, Wireshark and Zenmap.
+  * Update ubuntu-make PPA.
+  * Update Software to consistently use the name Software Boutique.
+  * Update copyright attributions.
+  * Whitespace cleanup.
+  * Closes (LP: #1556869)
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 23 Feb 2016 21:35:07 +0000
+
+ubuntu-mate-welcome (16.04.3) xenial; urgency=medium
+
+  [ Luke Horwell ]
+    * Friendlier "not connected" messages.
+    * Title bar is simply "Welcome".
+    * Many minor tweaks and code consistency.
+    * Catch exceptions when commands fail.
+    * Rewrite date functions for Main Menu events.
+    * New images.
+    * Raspberry Pi 2 information about kernel upgrades.
+    * Software Page is now built dynamically.
+    * Add ability to launch apps.
+    * Add ability to filter by subcategory.
+    * Add expandable/collapsible more details for each app.
+    * Add screenshots.
+    * Add a Software Only Mode.
+    * Add update subscription.
+    * Highlight installed applications.
+    * Show a spinner when applying actions.
+    * One-click install links now scroll to specific server app.
+    * Dynamically populate the random featured apps grid.
+    * Always show software categories at top of page.
+    * Show a 'busy' cursor when entering Software/Getting Started.
+    * Handle apt operations via DynamicApps class.
+    * Optimisations updating installed state of applications.
+    * Fixed Proprietary software toggle.
+
+  [ Martin Wimpress ]
+    * Raspberry Pi 2 button to resize partitions.
+    * Closes (LP: #1548133)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 17 Feb 2016 21:35:21 +0000
+
+ubuntu-mate-welcome (16.04.2) xenial; urgency=medium
+
+  * Add the missing image files (LP: #1537476)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 25 Jan 2016 15:52:00 +0200
+
+ubuntu-mate-welcome (16.04.1) xenial; urgency=medium
+
+  [ Luke Horwell ]
+  * New Ambience theme for the navigation bar.
+  * Improved code re-use for footers (uses JavaScript)
+  * Detect the graphics card (including VirtualBox)
+  including information about the NVIDIA drivers PPA.
+  * Detect BIOS or UEFI and provide relevant guidance.
+  * Expandable/collapsible sub-sections.
+  * Hints appear after opening utilities.
+  * Rename 'index' ID for consistency in code naming.
+  * Fade in software categories and corrected minor visual quirks.
+  * Updated Firefox, LibreOffice and Control Centre icons.
+  * Removed links on software icons. Users were getting confused why
+  this opened a web page.
+  * Only use one FontAwesome font supported by WebKit.
+  * Added new page for live sessions and guest sessions.
+  * Hides privileged features when launched in guest sessions.
+
+  [ Martin Wimpress ]
+  * Added miscellaneous tasks to update cache, upgrade installed
+  packages, fix an incomplete install and fix broken dependencies.
+  * Added Firmware and Codecs one-click installers to Getting Started.
+  * Added 0 A.D, Ambient Noise, Aptik, Audio Recorder, Bazaar Explorer,
+  BtSync, Boot Repair, Caja Share, Chromium BSU, Dia, DVD Styler,
+  EasyTAG, Emby, Enpass, Evolution, Extreme Tux Racer, FlightGear,
+  FocusWriter, Frozen Bubble, GCompris, Git-Cola, Glade, Gobby,
+  GParted, Hedgewars, HPLIP-GUI, KDE Connect Indicator, LibreOffice Base,
+  LibreOffice Draw, LibreOffice Math, LibreOffice (fresh), Liferea,
+  Minecraft Server, MySQL Workbench, My Paint, Neverball, Neverputt,
+  Nexuiz, Opera, OpenSSH, Owncloud Client, Parcellite, PlayOnLinux,
+  Poedit, Recent Notifications, RedNoteBook, ReText, Stellarium,
+  Teeworlds, Tor Browser, Virt Manager, WarZone 2100, Wesnoth.
+  * Updated Dropbox, VeraCrypt and X2Go.
+  * Updated VirtualBox. Closes (LP: #1537395)
+  * Updated copyright attributions.
+  * Installing Adobe Flash now uses flashplugin-installer.
+  * Removed obsolete code.
+  * Closes (LP: #1537476)
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 24 Jan 2016 11:52:21 +0000
+
+ubuntu-mate-welcome (16.04.0) xenial; urgency=medium
+
+  * Overhaul of the user interface.
+  * Context menu removed. Closes (LP: #1480718)
+  * Detects if repository is available. Closes (LP: #1500533)
+  * Fixes re-install of Minecraft. Closes (LP: #1516338)
+  * Updates process name.
+  * Added Variety, Gnote, Planner, gnome-schedule, Redshift.
+  * Updated Terminator, VirtualBox, Simple Screen Recorder, Minecraft.
+  * Closes (LP: #1525934)
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 08 Dec 2015 10:01:33 +0000
+
+ubuntu-mate-welcome (1.0.3.5) wily; urgency=medium
+
+  * Closes (LP: #1506530)
+  * Disable Synapse, segfaults on Wily.
+  * Disable Simple Screen Recorder, not installable on Wily.
+
+ -- Martin Wimpress <code@flexion.org>  Thu, 15 Oct 2015 16:22:41 +0100
+
+ubuntu-mate-welcome (1.0.3.4) wily; urgency=medium
+
+  * Closes (LP: #1499621)
+  * Fix Universal Access heading not appearing.
+  * Fix compatible architectures for Steam and Handbrake.
+  * Fix broken Launchpad link (LP: #1480721)
+  * Correct MakeMKV repository,
+  * Correct Spotify repository and architecture support.
+  * Correct VirtualBox version.
+  * Correct X2Go repository.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 21 Sep 2015 15:25:43 +0100
+
+ubuntu-mate-welcome (1.0.3.3) wily; urgency=medium
+
+  * Closes (LP: #1497789)
+  * Fix SpiderOakONE conflict dialogue.
+  * Correct Eviacam repository.
+  * Correct Minecraft repository.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 20 Sep 2015 22:07:11 +0100
+
+ubuntu-mate-welcome (1.0.3.2) wily; urgency=medium
+
+  * Closes (LP: #1493274)
+  * Correct the category Ubuntu MATE Welcome is listed under.
+  * Update UI to highlight the Software button.
+  * Update UI to add Asunder.
+  * Update UI to add FileZilla.
+  * Update UI to add Iced Tea browser plugin.
+  * Update UI to add Pulse Audio Volume Control.
+  * Update UI to add Rapid Photo Downloader.
+  * Update UI to add SuperTuxKart.
+  * Update text for GIMP to mention the CMYK plug-ins.
+  * Remove obsolete repository configuration.
+  * White space clean up.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 05 Sep 2015 23:52:04 +0100
+
+ubuntu-mate-welcome (1.0.3.1) wily; urgency=medium
+
+  * Bug fix release.  Closes (LP: #1490914)
+    + Fix multiple Steam entries appearing.
+    Closes (LP: #1490108)
+    + Fix Freenode link that opened in the Welcome window.
+    Closes (LP: #1490203)
+    + Update UI to add Synaptic.
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 01 Sep 2015 10:58:13 +0100
+
+ubuntu-mate-welcome (1.0.3) wily; urgency=medium
+
+  * New upstream release. Closes (LP: #1488968)
+    + Update UI to include missing elements for backup, firewall and
+    user management.
+    + Remove obsolete styles and UI elements.
+    + Correct spelling of Ubuntu Software Centre.
+    + Fix SpideOakONE references.
+  * debian/copyright:
+    + Correct email addresses of contributors.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 26 Aug 2015 13:40:54 +0100
+
+ubuntu-mate-welcome (1.0.2) wily; urgency=medium
+
+  * New upstream release. Closes (LP: #1486554)
+    + Add VeraCrypt
+    + Add App Grid.
+    + Add Ubuntu Software Center.
+    + Add Hardinfo.
+    + Add Disks.
+    + Add SpiderOakONE.
+    + Add Chromium as an alternative to Google Chrome.
+    + Add categories to Software.
+    + Add proprietary software toggle.
+    + Migrate to janimate.js to add animations and transitions.
+    + Assorted content updates and whitespace cleanup.
+    + Update content for Introduction and Features, assorted content
+    changes and whitespace cleanup throughout.
+    + Update buttons in Software to make them consistent.
+    + Rename to Welcome.
+    + Hide some elements when in a live session.
+  * debian/copyright:
+    + Update copyright attibutions for new contributions.
+
+ -- Martin Wimpress <code@flexion.org>  Thu, 06 Aug 2015 10:23:21 +0100
+
+ubuntu-mate-welcome (1.0.1) wily; urgency=medium
+
+  * New upstream release. Closes (LP: #1478323)
+    + Add Handbrake.
+    + Add man page and remove unnecessary fonts. (LP: #1477962)
+    + Fix enable/disable toggle.
+    + White space clean up.
+  * debian/control:
+    + Add missing mate-menus dependency.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 26 Jul 2015 10:31:21 +0100
+
+ubuntu-mate-welcome (1.0.0) wily; urgency=medium
+
+  * Initial release. Closes (LP: #1476653)
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 20 July 2015 21:29:25 +0100
